@@ -268,7 +268,7 @@ body{
     /* width: 425px; */
     /* height: 844px; */
     .main-wrapper{
-        width: 400px;
+        width: 350px;
         height: 1000px;
     }
     
@@ -313,6 +313,14 @@ body{
         width: auto;
         height: 50px;
         align-items: flex-end;
+        padding-left: 0;
+        justify-content: center;
+    
+        /* margin-top: 1rem; */
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        /* padding-left: var(--padding-three); */
     }
     
     .btn-tool-style{
@@ -341,7 +349,7 @@ body{
         height: 90px;
 
         display: grid;
-        grid-template-columns: 200px 150px;
+        grid-template-columns: 150px 140px;
         grid-template-rows: 30px 70px;
 
         padding: var(--padding-three);
