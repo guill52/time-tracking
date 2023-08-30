@@ -363,8 +363,10 @@ body{
     
     .time-desciption-style{
         display: flex;
+        justify-content: flex-end;
         align-items: flex-end;
         margin-top: 0;
+        font-size: .8em;
     }
 
     .bkg-img-activity{
